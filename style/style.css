@@ -106,7 +106,7 @@ body {
     flex-direction: row;
     justify-content: center;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
     .pare {
       flex-direction: column;
       margin: 0 auto;
