@@ -1,1 +1,135 @@
-test
+body {
+    background-color: black;
+    font-family: 'Jost', sans-serif;
+    margin: 0;
+}
+.main {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.img-link {
+    text-decoration: none;
+    margin: 0;
+    display: block;
+    box-sizing: border-box;
+    height: 500px;
+}
+
+.img-link .main-img-overlay:hover {
+    background: rgba(10, 10, 10, 0.5);
+}
+
+.art {
+    position: relative;
+    color: white;
+    font-size: 32px;
+    line-height: 36px;
+    margin-left: 40%;
+    top: 76;
+    z-index: 1010;
+    transition: .1s;
+}
+.main-img {
+    position: relative;
+    top: -32;
+    width: 100%;
+    height: 500px;
+    background-image: url("../img/main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 70%;
+}
+.main-img-overlay {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background: rgba(0,0,0,0.55);
+    transition: .3s;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    font-size: 2.75em;
+    line-height: 1.25em;
+    margin-bottom: 1em;
+}
+.heroes {
+    box-sizing: border-box;
+    padding: 20px 20px 20px 20px;
+    width: 100%;
+    background-color: black;
+    
+}
+.border {
+    box-sizing: border-box;
+    padding: 20px 60px 20px 60px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    width: 100%;
+    border: solid white 4px;
+}
+.line {
+    border-bottom: solid white 3px;
+}
+.story {
+    font-size: 24px;
+    color: white;
+    text-align: justify;
+}
+.button {
+    width: 44vw;
+    height: 56px;
+    line-height: 56px;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+}
+.link-button {
+    text-decoration: none;
+}
+.button:hover {
+    color: black;
+    background-color: white;
+    transition-duration: .3s;
+}
+.pare {
+    box-sizing: border-box;
+    padding: 0px 60px 0px 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+@media screen and (max-width: 900px) {
+    .pare {
+      flex-direction: column;
+      margin: 0 auto;
+    }
+    .pare .button {
+        width: 72vw;
+    }
+    .pare a {
+        margin: auto;
+    }
+  }
+footer {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 16px 5.55% 24px 6.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-color: black;
+    height: 100%;
+}
+.copy {
+    color: white;
+    margin-top: 20px;
+    font-size: 24px;
+}
