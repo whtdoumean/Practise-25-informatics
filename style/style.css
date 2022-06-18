@@ -137,6 +137,11 @@ body {
     .border {
         padding: 16px 16px 16px 16px;
     }
+    .art {
+        font-size: 28px;
+        line-height: 32px;
+        margin-left: 16%;
+    }
   }
 footer {
     width: 100%;
