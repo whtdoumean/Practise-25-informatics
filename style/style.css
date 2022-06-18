@@ -61,7 +61,7 @@ body {
 }
 .heroes {
     box-sizing: border-box;
-    padding: 20px 20px 0px 20px;
+    padding: 20px 0px 0px 0px;
     width: 100%;
     background-color: black;
     
@@ -165,12 +165,13 @@ body {
 footer {
     width: 70%;
     box-sizing: border-box;
-    padding: 16px 5.55% 24px 6.5%;
+    padding: 16px 0px 24px 0px;
     display: flex;
     flex-direction: column;
     justify-content: end;
     background-color: black;
-    height: 100%;
+    margin: auto;
+    margin-top: 28px;
 }
 @media screen and (max-width: 768px) {
     footer {
