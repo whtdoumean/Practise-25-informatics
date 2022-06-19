@@ -29,7 +29,7 @@ body {
     color: white;
     font-size: 32px;
     line-height: 36px;
-    margin-left: 40%;
+    margin-left: calc(50vw - 211.49px);
     top: 76;
     z-index: 1010;
     transition: .1s;
@@ -147,7 +147,7 @@ body {
     .art {
         font-size: 28px;
         line-height: 32px;
-        margin-left: 16%;
+        margin-left: calc(50vw - 185px);
     }
     .link-button:first-child {
         margin-bottom: 12px;
